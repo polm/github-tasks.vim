@@ -1,6 +1,9 @@
 # github-tasks.vim
 
-This plugin add support for [Github tasks], letting you turn normal markdown list entries into tasks and toggle them done or not done. 
+This plugin adds support for [Github
+tasks](https://github.com/blog/1825-task-lists-in-all-markdown-documents),
+letting you turn normal markdown list entries into tasks and toggle them done
+or not done. 
 
 ### Details
 
@@ -11,6 +14,7 @@ Non-task list entries are turned into tasks. Tasks are toggled between done and 
 Example before and after:
 
 | before | after |
+| --- | --- |
 | `- do stuff` | `- [ ] do stuff` |
 | `- [ ] find panda` | `- [x] find panda` |
 | `- [x] hunt dagashi` | `- [ ] hunt dagashi` |
